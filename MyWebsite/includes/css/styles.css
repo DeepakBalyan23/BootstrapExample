@@ -22,7 +22,12 @@ Notes:	 Hand coded for Udemy.com
 #inputMessage{
    margin-bottom: 15px;
 }
-
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
 
 /* --------------------------------------
    Typography
@@ -125,7 +130,13 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+   .thumbnail .price {
+      font-size: 14px;
+   }
    
+   .thumbnail .price sup {
+      font-size: 10px;
+   }
 }
 
 /* Landscape phone to portrait tablet */
