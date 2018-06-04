@@ -70,6 +70,7 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 .alert{
    margin-top: 20px;
+   display: none;
 }
 
 
