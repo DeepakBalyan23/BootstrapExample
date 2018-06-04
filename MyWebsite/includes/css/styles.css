@@ -19,8 +19,16 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Typography
    -------------------------------------- */
+.well .page-header{
+   margin-top: 0;
+}
 
-
+.well .page-header h1{
+   margin-top: 0;
+}
+.well{
+   magin: 20px, 0;
+}
 
 /* --------------------------------------
    Navbar
@@ -60,7 +68,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
+.alert{
+   margin-top: 20px;
+}
 
 
 /* --------------------------------------
