@@ -31,6 +31,9 @@ footer {
 footer div figure p{
    margin-left: 80px;
 }
+.jumbotron {
+   margin-bottom: 0;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
