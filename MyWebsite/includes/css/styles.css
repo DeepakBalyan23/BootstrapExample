@@ -28,7 +28,9 @@ footer {
    font-size: 11px;
    padding: 20px;
 }
-
+footer div figure p{
+   margin-left: 80px;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -103,10 +105,11 @@ footer {
 #myCarousel{
    margin-top: 60px;
 }
-#carousel-caption{
+.carousel-caption{
    font-size: 24px;
+   background: rgba(0,0,0,0.5);
 }
-#carousel-caption h1{
+.carousel-caption h4{
    font-size: 30px;
 }
 #slide1{
@@ -155,10 +158,10 @@ footer {
    #slide3{
       background: url("../../images/carousel_small_03.png") top center no-repeat;
    }
-   #carousel-caption{
+   .carousel-caption{
       font-size: 16px;
    }
-   #carousel-caption h1{
+   carousel-caption h4{
       font-size: 22px;
    }
 }
