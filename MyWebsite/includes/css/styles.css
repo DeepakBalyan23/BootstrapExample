@@ -87,6 +87,12 @@ footer {
 .navbar-brand{
    padding: 13px 15px;
 }
+.navbar-brand h3{
+   margin-top: 0;
+}
+.navbar-brand h3 span{
+   color: #72AB00;
+}
    
 /* --------------------------------------
    Carousel
@@ -116,10 +122,6 @@ footer {
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-.alert{
-   margin-top: 20px;
-   display: none;
-}
 .tabbable img.thumbnail{
    margin: 0 20px 10px;
 }
