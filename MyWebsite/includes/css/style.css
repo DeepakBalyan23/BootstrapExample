@@ -31,22 +31,11 @@ footer {
 footer div figure p{
    margin-left: 80px;
 }
-.jumbotron {
-   margin-bottom: 0;
-}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
-.well .page-header{
-   margin-top: 0;
-}
 
-.well .page-header h1{
-   margin-top: 0;
-}
-.well{
-   magin: 20px, 0;
-}
 .tabbable img.thumbnail {
    margin: 0 20px 10px 0;
 }
@@ -107,6 +96,7 @@ footer div figure p{
 }
 #myCarousel{
    margin-top: 60px;
+   margin-bottom: 20px;
 }
 .carousel-caption{
    font-size: 24px;
