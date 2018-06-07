@@ -9,14 +9,16 @@
         <meta name="keywords"  content="Deepak Resume, Deepak Balyan Resume, Deepak Profile">
 		
 		<!-- Mobile viewport optimized -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
+		<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		
 		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="includes/css/style.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
@@ -27,81 +29,77 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="navbar navbar-fixed-top">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 				<div class="container">
-					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+					<button class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+						<span class="navbar-toggler-icon"></span>
 					</button>
 					<a class="navbar-brand" href="/"><h3 style="font-family: Jua;"><span>Deepak</span> Balyan</h3></a>
-					<div class="nav-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active">
-								<a href="#">Home</a>
+					<div class="navbar-collapse collapse" id="navbarCollapse">
+						<ul class="navbar-nav ml-auto  mr-3">
+							<li class="nav-item">
+								<a href="#" class="nav-link">Home</a>
 							</li>
-							<li>
-								<a href="#bigCallout">About Me</a>
+							<li class="nav-item">
+								<a href="#bigCallout" class="nav-link">About Me</a>
 							</li>
-							<li>
-								<a href="#featuresHeading">Skills</a>
+							<li class="nav-item">
+								<a href="#featuresHeading" class="nav-link">Skills</a>
 							</li>
-							<li>
-								<a href="#experience">Experience</a>
+							<li class="nav-item">
+								<a href="#experience" class="nav-link">Experience</a>
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hobbies<strong class="caret"></strong></a>
+							<li class="dropdown nav-item">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hobbies<strong class="caret"></strong></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Video Making</a></li>
-									<li><a href="#">Swimming</a></li>
-									<li><a href="#">Cricket</a></li>
-									<li><a href="#">Volleyball</a></li>
-									<li><a href="#">Pool</a></li>
+									<li><a href="#" class="dropdown-item">Video Making</a></li>
+									<li><a href="#" class="dropdown-item">Swimming</a></li>
+									<li><a href="#" class="dropdown-item">Cricket</a></li>
+									<li><a href="#" class="dropdown-item">Volleyball</a></li>
+									<li><a href="#" class="dropdown-item">Pool</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="#contacts_footer">Contacts</a>
+							<li class="nav-item">
+								<a href="#contacts_footer" class="nav-link">Contacts</a>
 							</li>
 						</ul>
-						<form class="navbar-form pull-right">
-							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
-							<button type="submit" class="btn btn-default">
-								<span class="glyphicon glyphicon-search"></span>
-							</button>
-						</form>
+						<form class="form-inline my-2 my-lg-0">
+               				<input type="text" class="form-control mr-sm-2" placeholder="Search">
+                			<button class="btn btn-outline-light my-2 my-sm-0">Search</button>
+              			</form>
 					</div><!--end of nav-collapse-->
 				</div><!--end of container-->
-			</div><!--end of navbar-->
-			
-			<div class="carousel slide" id="myCarousel">
+			</nav><!--end of navbar-->
+
+			<div class="carousel slide" data-ride="carousel" id="myCarousel">
 				<ol class="carousel-indicators">
 					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
 					<li data-slide-to="1" data-target="#myCarousel"></li>
 					<li data-slide-to="2" data-target="#myCarousel"></li>
 				</ol>
-				<div class="carousel-inner">
-					<div class="item active" id="slide1">
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active" id="slide1">
 						<div class="carousel-caption">
 							<h4>VIT University, Vellore</h4>
 							<p>Vellore Institute of Technology, informally VIT University, formerly Vellore Engineering College is a private deemed university institute located in the outskirts of Vellore, Tamil Nadu, India.</p>
 						</div>
 					</div>
-					<div class="item" id="slide2">
+					<div class="carousel-item" id="slide2">
 						<div class="carousel-caption">
 							<h4>Hitwicket</h4>
 							<p>Hitwicket, a Hyderabad startup, has tapped into this fervent devotion by coming up with an online, strategy-based cricket simulation game.</p>
 						</div><!-- end carousel-caption-->
 					</div><!-- end item -->
 		
-					<div class="item" id="slide3">
+					<div class="carousel-item" id="slide3">
 						<div class="carousel-caption">
 							<h4>Boeing</h4>
 							<p>The Boeing Company is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites worldwide. The company also provides leasing and product support services.</p>
 						</div>	
 					</div>
 				</div>
-				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+				<a class="carousel-control-prev" data-slide="prev" href="#myCarousel"><span class="carousel-control-prev-icon"></span></a>
+				<a class="carousel-control-next" data-slide="next" href="#myCarousel"><span class="carousel-control-next-icon"></span></a>
 			</div><!--end of carousel-->
 
 			<main>
@@ -290,13 +288,16 @@
 	        </div>
         </footer>
 
-	<!-- All Javascript at the bottom of the page for faster page loading -->
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+			
+		<!-- First try for thes online version of jQuery-->
+		<!-- <script src="http://code.jquery.com/jquery.js"></script> -->
 		
-	<!-- First try for thes online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	
-	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- Bootstrap JS -->
+		<!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	
 	</body>
 </html>
